@@ -1,4 +1,4 @@
-
+Attribute VB_Name = "basToolTestImportYaml"
 Public Sub ToolTestImportYaml(strYamlFilePath As String, rngDestination As Range)
 Dim arryYaml As Variant
 Dim rngDestinationReturn As Range
@@ -15,4 +15,3 @@ Dim rngDestinationReturn As Range
     'Assign the values to the destination range
     rngDestinationReturn.Value = arryYaml
 End Sub
-
