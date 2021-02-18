@@ -1,3 +1,4 @@
+Attribute VB_Name = "vb_ParseYAMLtoArray"
 Public Function ParseYAMLtoArray(ByVal filePath) ' as array
 ' Version 1.0.4
 ' Dependencies: NONE
